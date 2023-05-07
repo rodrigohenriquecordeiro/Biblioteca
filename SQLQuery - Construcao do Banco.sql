@@ -1,0 +1,14 @@
+IF NOT EXISTS (SELECT * FROM sysobjects WHERE NAME ='ESTANTE' AND XTYPE = 'U')
+	CREATE TABLE ESTANTE 
+	(
+        CodLivro INT IDENTITY(1,1) PRIMARY KEY,
+		Livro VARCHAR(100) NOT NULL,
+		Autor VARCHAR(50) NOT NULL,
+		Editora VARCHAR(30) NOT NULL,
+		AnoDePublicacao VARCHAR(20) NOT NULL,
+		NumeroDePaginas INT,
+		Classificacao VARCHAR(40) NOT NULL,
+		DataDeAquisicao DATETIME NOT NULL,
+		Observacao VARCHAR(100)
+    )
+GO

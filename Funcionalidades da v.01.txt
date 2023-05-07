@@ -1,0 +1,13 @@
+Montar as Funções que irão ajudar no desenho das telas; FEITO
+Organizar as Estruturas de Repetição; FEITO
+Montar método de Select; FEITO
+Testar método de Insert; FEITO
+Descobrir como selecionar uma coluna pelo código; FEITO
+Testar método de Update; FEITO
+Testar método de Delete; FEITO
+Mudar de INT para String o Código do Livro no C#; FEITO
+Remover o Format no SQL e colocar o PadLeft no C#; FEITO
+Auto incremento no Código do Livro; FEITO
+Montar Relatório Completo;
+Criar tabelas auxiliares no SQL Server;
+Criar triggers;
